@@ -16,11 +16,12 @@ body {
 }
 
 .header{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    min-height: 60vh;
+    padding: 10px 100px;
+    text-align: center;
     background-color: #1F2937;
 }
 
+.header_content{
+    display: flex;
+    justify-content: space-between;
+}
