@@ -61,7 +61,8 @@ body {
 }
 
 .hero_text,
-.hero_subtext{
+.hero_subtext,
+.CTA_right a{
     text-align: left;
     color: #F9FAF8;
 }
@@ -157,4 +158,40 @@ body {
     align-self: flex-end;
     font-size: 20px;
     margin-right: 40px;
+}
+
+.CTA_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CTA_container{
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 50px 100px;
+    margin: 100px 100px;
+    gap: 100px;
+}
+
+.CTA_container button{
+    padding: 5px 30px;
+    background-color: #3882F6;
+    border: 2px solid white;
+    color: #F9FAF8;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.CTA_right{
+    display: flex;
+    flex-direction: column;
+}
+.CTA_right a:first-of-type{
+    font-size: 20px;
+    font-weight: 900;
 }
